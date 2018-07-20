@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,10 +18,8 @@ namespace RecFibo
             {
                 int result = Fibo(i);
                 Console.Write(result + " ");
-
             }
             Console.ReadKey();
-
         }
 
         public static int Fibo(int n)
@@ -34,11 +32,8 @@ namespace RecFibo
 
             else
             {
-
                 return Fibo(n - 1) + Fibo(n - 2);
-
             }
-
         }
     }
 }
